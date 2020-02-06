@@ -32,7 +32,8 @@ public class Hm_ModifyResultAction implements Action {
 		int no =1;
 		if(num!=null) {
 			no=Integer.parseInt(num);
-		}
+		} 
+		
 		request.setAttribute("file", file);
 		
 		Hm_ExpertService service = Hm_ExpertService.getService();
